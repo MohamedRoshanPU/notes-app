@@ -1,0 +1,46 @@
+.addnote-container {
+    width: 100%;
+    min-height: 250px;
+    padding: 30px;
+    background-color: rgb(158, 231, 255);
+    border-radius: 14px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  .addnote-footer{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  textarea{
+    border: none;
+    resize: none;
+    background-color: transparent;
+  }
+
+  textarea:focus{
+    outline: none;
+  }
+
+  .save{
+    padding: 8px 19px;
+    border-radius: 50px;
+    border: none;
+    transition: all ease-in-out .3s;
+    background-color: rgb(112, 112, 255);
+    color: white;
+  }
+
+  .save:hover{
+    background-color: rgb(54, 54, 164);
+    cursor: pointer;
+  }
+
+  .remaining-char{
+    font-size: 14px;
+    font-weight: 400;
+    font-style: italic;
+  }

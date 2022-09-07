@@ -1,0 +1,31 @@
+.note-container {
+  width: 100%;
+  min-height: 250px;
+  padding: 30px;
+  background-color: rgb(158, 255, 158);
+  border-radius: 14px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  white-space: pre-wrap;
+
+}
+
+.date{
+  font-size: 16px;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.note-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fa-trash {
+  transition: all ease-in-out .5s;
+}
+.fa-trash:hover {
+  cursor: pointer;
+  color: red;
+}
